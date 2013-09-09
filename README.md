@@ -11,11 +11,11 @@ To run the project you need installed:
 
 After cloning the repo run:
 
-    `npm install && bundle install`
+    npm install && bundle install
 
 in the project root directory to get all the dependencies.
 
 Finally run
 
-    `grunt server`
+    grunt server
 
