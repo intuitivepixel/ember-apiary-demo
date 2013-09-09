@@ -1,0 +1,19 @@
+<p></p>
+<div class="row">
+  <div class="col-xs-3">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+          {{#each client in model}}
+            <li>
+              {{#link-to 'clients.details' client}}{{client.companyName}} <span class="badge pull-right">{{client.randomNumber}}</span>{{/link-to}}
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-9">
+    {{outlet}}
+  </div>
+</div>

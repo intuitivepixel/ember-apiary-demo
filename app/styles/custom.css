@@ -1,0 +1,21 @@
+body {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.active {
+  /*font-weight: bold;*/
+  background-color: #428BCA;
+  color: #FFFFFF;
+}
+
+.nav-pills>li>a:hover {
+    background-color: #428BCA;
+    color: #FFFFFF;
+}
+
+.nav-pills>li>a>.badge {
+    background-color: #FFFFFF;
+    color: #428BCA;
+}

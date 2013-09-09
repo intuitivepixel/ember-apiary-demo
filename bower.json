@@ -1,0 +1,10 @@
+{
+  "name": "ember-apiary-demo",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~1.9.1"
+  },
+  "devDependencies": {
+    "ember-mocha-adapter": "0.1.1"
+  }
+}
