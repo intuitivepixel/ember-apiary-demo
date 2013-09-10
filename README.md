@@ -5,9 +5,10 @@ Simple yeoman.io + ember.js + chart.js + apiary.io + randomuser.me app
 
 To run the project you need installed:
 
- - yo
- - bower
+ - node
  - npm
+ - yo `npm install -g yo grunt-cli`
+ - bower
 
 After cloning the repo run:
 
@@ -20,4 +21,4 @@ Finally run
 
     grunt server
 
-Optionally use `--force` to omit `grunt-contrib-compass` errors
+Optional use `grunt server --force` to omit `grunt-contrib-compass` errors
