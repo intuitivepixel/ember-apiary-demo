@@ -1,24 +1,29 @@
 ember-apiary-demo
 =================
 
-Simple yeoman.io + ember.js + chart.js + apiary.io + randomuser.me app
+A simple ember & ember-data app using the following additional dependencies
 
-To run the project you need installed:
+###Build system
+ - [yeoman.io](http://yeoman.io)
 
- - node
- - npm
- - yo `npm install -g yo grunt-cli`
- - bower
+###Javascript libraries
+ - [ember.js](http://emberjs.com)
+ - [chart.js](http://www.chartjs.org)
 
-After cloning the repo run:
+###REST services
+ - [apiary.io](http://apiary.io)
+ - [randomuser.me](http://randomuser.me)
 
-    npm install && bundle install
-    bower install
+##Quick Start
 
-in the project root directory to get all the dependencies.
+Make sure you have Node.js and git installed, and then:
 
-Finally run
+    $ git clone git@github.com:intuitivepixel/ember-apiary-demo
+    $ cd ember-apiary-demo
+    $ sudo npm -g install yo grunt-cli bower
+    $ npm install
+    $ bundle install
+    $ bower install
+    $ grunt server
 
-    grunt server
-
-Optional use `grunt server --force` to omit `grunt-contrib-compass` errors
+Finally, a browser window should open pointing at [http://localhost:9000](http://localhost:9000).
